@@ -1,3 +1,3 @@
 # Paylink
 
-A description of this package.
+An iOS Cocoapod for Paylink's iOS SDK

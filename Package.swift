@@ -16,13 +16,6 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(
-            name: "Paylink",
-            dependencies: []),
-        .testTarget(
-            name: "PaylinkTests",
-            dependencies: ["Paylink"]),
+        .binaryTarget(name: "Paylink", url: "https://developer.paylink.sa/assets/downloads/PLPaymentGateway.xcframework.zip", checksum: "5a5a76cd2aae0f933b28b7ffe9f4b97cd5dd1c4b9605b86769eb90374b1b4d84")
     ]
 )
