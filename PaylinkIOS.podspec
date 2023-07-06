@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'PaylinkIOS'
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   s.summary      = 'A payment gateway library for iOS.'
   s.description  = 'A library that provides payment gateway functionality for iOS applications.'
   s.homepage     = 'https://developer.paylink.sa'
