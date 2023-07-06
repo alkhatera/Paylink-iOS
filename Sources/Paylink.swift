@@ -1,6 +1,6 @@
 import PLPaymentGateway
 
-public class Paylink {
+public class PaylinkIOS {
     private let gateway: PaylinkGateway
     
     public init(apiId: String, secretKey: String, environment: PLPaymentEnvironment) {
